@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CALCULATOR.Calc
 {
-    class PrintResultat
+    abstract class PrintResultat
     {
         public void PrintRes(double a)
         {

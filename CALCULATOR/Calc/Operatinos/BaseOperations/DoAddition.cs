@@ -8,11 +8,11 @@ namespace CALCULATOR.Calc
 {
     class DoAddition:ReadNumbers
     {
-        public double DoAdd()
+        public void DoAdd()
         {
             ReadNumOne();
             ReadNumTwo();
-            return NumOne + NumTwo;
+            PrintRes(Math.Round( NumOne + NumTwo,10));
         }
     }
 }

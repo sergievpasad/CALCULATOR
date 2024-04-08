@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CALCULATOR.Calc
 {
-    abstract class Numbers : PrintResultat
+    class Numbers : PrintResultat
     {        
         public double NumOne
         {

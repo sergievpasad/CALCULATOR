@@ -8,11 +8,11 @@ namespace CALCULATOR.Calc
 {
     class ExtractRoot:ReadNumbers
     {
-        public double DoExtract()
+        public void DoExtract()
         {
             ReadNumOne();
             ReadNumTwo();
-            return Math.Round(Math.Pow(NumOne, 1 / NumTwo), 10);
+            PrintRes( Math.Round(Math.Pow(NumOne, 1 / NumTwo), 10));
         }
     }
 }

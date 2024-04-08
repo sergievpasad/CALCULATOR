@@ -16,29 +16,29 @@ namespace CALCULATOR.Calc
             {
                 case "+":
                     DoAddition a = new DoAddition();
-                    a.PrintRes(a.DoAdd());
+                    a.DoAdd();
                     break;
                 case "*":
                     DoMultiplication b = new DoMultiplication();
-                    b.PrintRes(b.DoMul());
+                    b.DoMul();
                     break;
                 case "-":
                     DoSubtraction c = new DoSubtraction();
-                    c.PrintRes(c.DoSub());
+                    c.DoSub();
                     break;
                 case "/":
                     DoDivision d = new DoDivision();
-                    d.PrintRes(d.DoDiv());
+                    d.DoDiv();
                     break;
                 case "sqr":
                 case "Sqr":
                     DoDegree e = new DoDegree();
-                    e.PrintRes(e.DoDeg());
+                    e.DoDeg();
                     break;
                 case "sqrt":
                 case "Sqrt":
                     ExtractRoot f = new ExtractRoot();
-                    f.PrintRes(f.DoExtract());
+                    f.DoExtract();
                     break;
                    
             }

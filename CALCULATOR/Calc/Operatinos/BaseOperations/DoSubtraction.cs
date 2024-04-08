@@ -8,11 +8,11 @@ namespace CALCULATOR.Calc
 {
     class DoSubtraction:ReadNumbers
     {
-        public double DoSub()
+        public void DoSub()
         {
             ReadNumOne();
             ReadNumTwo();
-            return Math.Round(NumOne - NumTwo, 10);
+            PrintRes( Math.Round(NumOne - NumTwo, 10));
         }
     }
 }

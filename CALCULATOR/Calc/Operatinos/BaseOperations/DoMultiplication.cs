@@ -8,11 +8,11 @@ namespace CALCULATOR.Calc
 {
     class DoMultiplication:ReadNumbers
     {
-        public double DoMul()
+        public void DoMul()
         {
             ReadNumOne();
             ReadNumTwo();
-            return Math.Round(NumOne * NumTwo,10);
+            PrintRes( Math.Round(NumOne * NumTwo,10));
         }
     }
 }

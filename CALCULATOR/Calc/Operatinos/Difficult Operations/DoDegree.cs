@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace CALCULATOR.Calc{
     class DoDegree:ReadNumbers
     {
-        public double DoDeg()
+        public void DoDeg()
         {
             ReadNumOne();
             ReadNumTwo();
-            return Math.Round(Math.Pow(NumOne, NumTwo), 10);
+            PrintRes( Math.Round(Math.Pow(NumOne, NumTwo), 10));
         }
     }
 }

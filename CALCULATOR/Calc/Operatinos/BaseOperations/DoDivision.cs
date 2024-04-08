@@ -8,11 +8,11 @@ namespace CALCULATOR.Calc
 {
     class DoDivision:ReadNumbers
     {
-        public double DoDiv()
+        public void DoDiv()
         {
             ReadNumOne();
             ReadNumTwo();
-            return Math.Round(NumOne / NumTwo, 10);
+            PrintRes( Math.Round(NumOne / NumTwo, 10));
             
         }
     }
