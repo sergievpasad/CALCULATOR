@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CALCULATOR.Calc
 {
-    class Program
+    class DoSinus : ReadNumbers
     {
-        static void Main(string[] args)
+        public void DoSin()
         {
-            CycleWork a = new CycleWork();
-            a.CycWork();
+            ReadNum();
+            PrintRes(Math.Round(Math.Sin(Num), 10));
         }
     }
 }

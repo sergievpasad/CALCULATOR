@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace CALCULATOR.Calc
 {
-    class Program
+    class ReadKey:ObjectKey
     {
-        static void Main(string[] args)
+        public string ReadK()
         {
-            CycleWork a = new CycleWork();
-            a.CycWork();
+            return Key = Console.ReadLine();
         }
     }
 }

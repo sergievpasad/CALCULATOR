@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace CALCULATOR.Calc
 {
-    class Program
+    class DoFactorial:CalcFacktorial
     {
-        static void Main(string[] args)
+        public void DoFac()
         {
-            CycleWork a = new CycleWork();
-            a.CycWork();
+            ReadNum();
+            Num++;
+            PrintRes(Math.Round(CalcFak(), 10));
         }
     }
 }

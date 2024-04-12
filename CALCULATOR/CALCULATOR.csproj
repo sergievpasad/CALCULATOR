@@ -43,20 +43,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calc\ChooseOperation.cs" />
+    <Compile Include="Calc\CycleWork.cs" />
+    <Compile Include="Calc\ObjectKey.cs" />
+    <Compile Include="Calc\Operatinos\Difficult Operations\DoModule.cs" />
+    <Compile Include="Calc\Operatinos\Difficult Operations\Factorial\CalcFacktorial.cs" />
+    <Compile Include="Calc\Operatinos\Difficult Operations\Factorial\DoFactorial.cs" />
+    <Compile Include="Calc\Operatinos\Trigonometry\DoCosinus.cs" />
+    <Compile Include="Calc\Operatinos\Trigonometry\DoCotangens.cs" />
+    <Compile Include="Calc\Operatinos\Trigonometry\DoTangens.cs" />
     <Compile Include="Calc\Operatinos\Difficult Operations\ExtractRoot.cs" />
     <Compile Include="Calc\Operatinos\BaseOperations\DoAddition.cs" />
     <Compile Include="Calc\Operatinos\Difficult Operations\DoDegree.cs" />
     <Compile Include="Calc\Operatinos\BaseOperations\DoDivision.cs" />
     <Compile Include="Calc\Operatinos\BaseOperations\DoMultiplication.cs" />
     <Compile Include="Calc\Operatinos\BaseOperations\DoSubtraction.cs" />
+    <Compile Include="Calc\Operatinos\Additional\PrintDonate.cs" />
+    <Compile Include="Calc\Operatinos\Additional\PrintMenu.cs" />
     <Compile Include="Calc\PrintResultat.cs" />
     <Compile Include="Calc\Numbers.cs" />
+    <Compile Include="Calc\ReadKey.cs" />
     <Compile Include="Calc\ReadNumbers.cs" />
+    <Compile Include="Calc\Operatinos\Trigonometry\DoSinus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Calc\Structure\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

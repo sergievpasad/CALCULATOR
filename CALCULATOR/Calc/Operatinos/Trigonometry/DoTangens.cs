@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CALCULATOR.Calc
 {
-    class Program
+    class DoTangens:ReadNumbers
     {
-        static void Main(string[] args)
+        public void DoTan()
         {
-            CycleWork a = new CycleWork();
-            a.CycWork();
+            ReadNum();
+            PrintRes(Math.Round(Math.Tan(Num), 10));
         }
     }
 }

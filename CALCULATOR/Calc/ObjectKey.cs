@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace CALCULATOR.Calc
 {
-    class Program
+    abstract class ObjectKey
     {
-        static void Main(string[] args)
-        {
-            CycleWork a = new CycleWork();
-            a.CycWork();
-        }
+        public string Key { get; set; }
     }
 }
